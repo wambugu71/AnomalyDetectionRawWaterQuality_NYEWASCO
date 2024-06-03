@@ -1,0 +1,51 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{glossaries}
+
+\makeglossaries
+
+\newglossaryentry{latex}
+{
+    name=latex,
+    description={Is a markup language specially suited 
+    for scientific documents}
+}
+
+\newglossaryentry{maths}
+{
+    name=mathematics,
+    description={Mathematics is what mathematicians do}
+}
+
+\newglossaryentry{DeKUT}
+{
+    name=DeKUT,
+    description={Dedan Kimathi University of Technology}
+}
+
+\newglossaryentry{LOF}{name = LOF, description  = {Local Outlier Factor}}
+\newglossaryentry{NYEWASCO}
+{name = NYEWASCO, 
+description  = {Nyeri Water and Sanitation Company } 
+}
+
+\newglossaryentry{IF}{name  = IF ,description  = {Isolated Forests } }
+\newglossaryentry{RRCF}{name  = RRCF ,description  = {Robust
+random cut forest}}
+
+
+
+\title{How to create a glossary}
+\author{ }
+\date{ }
+
+\begin{document}
+\maketitle
+
+The \Gls{latex} typesetting markup language is specially suitable 
+for documents that include \gls{maths}. 
+
+\clearpage
+
+\printglossaries
+\end{document}
